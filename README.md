@@ -74,14 +74,14 @@ directly:
 ```php
 App\Models\AttendanceDevice::create([
     'name' => 'Admin Office',
-    'ip_address' => '192.168.66.10',
+    'ip_address' => '192.168.**.**',
     'port' => 4370,
     'status' => 'active',
 ]);
 
 App\Models\AttendanceDevice::create([
     'name' => 'Corporate Office',
-    'ip_address' => '192.168.50.10',
+    'ip_address' => '192.168.**.**',
     'port' => 4370,
     'status' => 'active',
 ]);
